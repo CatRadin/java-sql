@@ -168,6 +168,7 @@ FROM orders o
 JOIN customers c on o.customer_id = c.customer_id 
 GROUP BY c.company_name
 
+
   <details><summary>hint</summary>
 
   * This can be done with SELECT, COUNT, JOIN and GROUP BY clauses. Your count should focus on a field in the Orders table, not the Customer table
